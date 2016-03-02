@@ -1,0 +1,25 @@
+*vim-bitrix.txt* Плагин для разработчиков на CMS 1С-Битрикс
+
+===============================================================================
+CONTENTS                                                           *vim-bitrix*
+
+    1. Intro ............................................... |vim-bitrix-intro|
+    2. Requirements ................................. |vim-bitrix-requirements|
+    3. Usage ............................................... |vim-bitrix-usage|
+    4. Licence ........................................... |vim-bitrix-licence|
+===============================================================================
+1. Intro                                                     *vim-bitrix-intro*
+
+Overview of plugin
+
+2. Requirements                                       *vim-bitrix-requirements*
+
+What additional programs are required to run the plugin
+
+3. Usage                                                     *vim-bitrix-usage*
+
+How to use the plugin. What functions does it give the user?
+
+4. Licence                                                 *vim-bitrix-licence*
+
+This is open source make sure to include a licence
