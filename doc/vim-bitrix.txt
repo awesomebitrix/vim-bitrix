@@ -1,4 +1,4 @@
-*vim-bitrix.txt* Плагин для разработчиков на CMS 1С-Битрикс
+*vim-bitrix.txt* A short multi line description of your plugin
 
 ===============================================================================
 CONTENTS                                                           *vim-bitrix*

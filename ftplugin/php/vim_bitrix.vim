@@ -20,10 +20,13 @@ endOfPython
 endfunction
 
 function! ComponentParamCreate()
+let param_name = input('Введите название параметра: ')
 python << endOfPython
+import vim
 
-from vim_bitrix import vim_component_param_create
-vim.current.buffer.append(vim_component_param_create())
+from vim_bitrix import format_component_param
+param_name = vim.eval("l:param_name")
+vim.current.buffer.append(format_component_param(param_name, '1', '2', '3', '4'))
 
 endOfPython
 endfunction

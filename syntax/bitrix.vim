@@ -20,4 +20,17 @@ unlet b:current_syntax
 
 syn match   bitrixMain          /CMain\|\$APPLICATION/
 
+if version >= 508 || !exists("did_lisp_syntax_inits")
+      if version < 508
+              let did_lisp_syntax_inits = 1
+              command -nargs=+ HiLink hi link <args>
+      else
+              command -nargs=+ HiLink hi def link <args>
+      endif
+
+      HiLink bitrixMain          Identifier
+
+      delcommand HiLink
+endif
+
 let b:current_syntax = 'bitrix'
